@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/img/bgpattern.png");
+}
+
+#answers > img {
+    max-width: 400px;
+    max-height: auto;
+}
+
+#again {
+    display: none;
+}
+
+#question {
+    font-size: 18pt;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    background: rgba(60, 60, 60, 0.4);
+    width: 75vh;
+    border-color: #297329;
+    border-width: 3px;
+    border-style: groove;
+}
+
+.card .card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 26pt;
+    letter-spacing: 2px;
+}
+
+.card > .card-body button {
+    background-color: #213F94;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20pt;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}

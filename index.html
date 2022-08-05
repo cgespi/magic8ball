@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;700&family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Magic 8-Ball</title>
+  </head>
+  <body>
+    <div class="d-flex m-4 justify-content-center">
+        <div id="answers"><img src="img/magic8ball_start.png" /></div>
+    </div>
+    <div class="d-flex mt-2 justify-content-center">
+    <div class="card shadow">
+      <div class="card-body text-center">
+        <h5 class="card-title text-light m-2" id="cardTitle">ASK ME ANYTHING</h5>
+        <div id="question" class="m-4 text-light"></div>
+        <form name="inputField" id="input">
+          <input required class="form-control w-75 mx-auto" type="text" name="question" autocomplete="off" maxlength="80" /><br />
+          <button class="btn" type="submit" value="Ask">ASK</button>
+        </form>
+        <button class="btn" type="submit" id="again">ASK AGAIN</button><br />
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
